@@ -1,0 +1,25 @@
+# == Color ==
+color:
+  when: always
+  theme: custom
+# == Icons ==
+icons:
+  when: always
+  theme: fancy
+  separator: " "
+# == Layout ==
+# Possible values: grid, tree, oneline
+layout: oneline
+# == Size ==
+# Specifies the format of the size column.
+# Possible values: default, short, bytes
+size: short
+# == Permission ==
+permission: rwx
+# == Hyperlink ==o 
+hyperlink: never
+# == No Symlink ==
+# Whether to omit showing symlink targets
+no-symlink: false
+# == Symlink arrow ==
+symlink-arrow: ⇒
